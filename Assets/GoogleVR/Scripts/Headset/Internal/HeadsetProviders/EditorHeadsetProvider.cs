@@ -46,11 +46,7 @@ namespace Gvr.Internal
         {
             get
             {
-#if UNITY_EDITOR
                 return true;
-#else // UNITY_EDITOR
-                return false;
-#endif // UNITY_EDITOR
             }
         }
 
