@@ -13,9 +13,7 @@ GameObject:
   - component: {fileID: 8817731074829524150}
   - component: {fileID: 8817731074829524136}
   - component: {fileID: 8817731074829524151}
-  - component: {fileID: -2595509779315838171}
-  - component: {fileID: -2373281733361853298}
-  - component: {fileID: -3375406192409679549}
+  - component: {fileID: -7283186432880894116}
   m_Layer: 0
   m_Name: Paper
   m_TagString: Untagged
@@ -117,7 +115,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 5, z: 1}
   m_Center: {x: 0, y: 2, z: 0}
---- !u!114 &-2595509779315838171
+--- !u!114 &-7283186432880894116
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -130,39 +128,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   triggerringEvents: []
-  triggerredEvents: []
-  triggeringTime: 0.2
---- !u!114 &-2373281733361853298
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8817731074829524137}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea063aa6194c2234cac095d8da6e035e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerringEvents:
-  - m_PersistentCalls:
-      m_Calls: []
-  triggerredEvents: []
-  triggeringTime: 0.1
---- !u!114 &-3375406192409679549
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8817731074829524137}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea063aa6194c2234cac095d8da6e035e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerringEvents:
-  - m_PersistentCalls:
-      m_Calls: []
   triggerredEvents: []
   triggeringTime: 0.1
